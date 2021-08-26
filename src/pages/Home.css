@@ -1,0 +1,90 @@
+.alert-radio-label.sc-ion-alert-md {
+	white-space: initial !important;
+}/* Popover Interface: set color for the popover using Item's CSS variables */
+.my-custom-interface .select-interface-option {
+  --color: #971e49;
+  --color-hover: #79193b;
+}
+/* Popover Interface: set color for the popover using Item's CSS variables */
+.my-custom-interface .brown-option {
+  --color: #5e3e2c;
+  --color-hover: #362419;
+}
+/* Action Sheet Interface: set color for the action sheet using its button CSS variables */
+.my-custom-interface .select-interface-option {
+  --button-color: #971e49;
+  --button-color-hover: #79193b;
+}
+
+/* Alert Interface: set color for alert options (single selection) */
+.my-custom-interface .select-interface-option .alert-radio-label {
+  color: #971e49;
+}
+
+/* Alert Interface: set color for alert options (multiple selection) */
+.my-custom-interface .select-interface-option .alert-checkbox-label {
+  color: #971e49;
+}
+
+/* Alert Interface: set color for checked alert options (single selection) */
+.my-custom-interface .select-interface-option[aria-checked=true] .alert-radio-label {
+  color: #79193b;
+}
+
+ion-row:nth-child(even) {
+  background-color: #f2f2f2;
+}/* Works - pass "my-custom-class" in cssClass to increase specificity */
+.my-custom-class .modal-wrapper {
+position: absolute;
+width: 90vw;
+height: 90vh;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+border: 0;
+}
+.sc-ion-input-md-h{
+    float: right;
+    max-width: 150px;
+    padding-left: 15px !important;
+}
+.findSlots{
+     --ion-background-color:#DC7633;
+     --border-radius: 15px !important;
+--inner-border-width: 0px !important;
+}
+.small-text {
+  font-size: 9px;
+  color:grey;
+}
+.note {
+  padding-right: 15px;
+}
+.date-ion-title{
+  --ion-background-color: #ffd699;
+}
+.pincode{
+--ion-background-color: transparent;
+--inner-border-width: 0px !important;
+color:white;
+}
+.enter-pincode{
+--ion-background-color: antiquewhite;
+}
+.main-header {
+--ion-background-color:#DC7633;
+}
+.filterTable{
+  padding-bottom: 20px;
+}
+.popover-disclaimer{
+  text-align: center;
+  --ion-background-color: darkcyan;
+}
+.info-list{
+  text-align: left !important;
+}
+.disclaimer{
+  text-align: right !important;}
