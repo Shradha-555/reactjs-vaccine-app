@@ -1,5 +1,5 @@
 # reactjs-vaccine-app
-# Vaccine slot availability checking app - developed using latest UI Technologies
+# Vaccine slot availability app - developed using latest UI Technologies
 - ReactJS
 - Ionic, HTML5, CSS3
 
